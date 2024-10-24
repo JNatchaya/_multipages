@@ -1,0 +1,11 @@
+.login-container{
+    text-align: center;
+    padding: 0.5rem;
+    width: 400px;
+    height: 220px;
+    margin: 2rem auto;
+    /* border: 5px dashed violet; */
+    border-radius: 1rem;
+    background-color: pink;
+}
+

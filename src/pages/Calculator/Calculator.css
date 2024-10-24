@@ -1,0 +1,114 @@
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: black; */
+}
+.calculator {
+    background-color: pink;
+    padding: 20px;
+    /* border: 3px solid black; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.calculator-display {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+.calculator-button {
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+}
+.calculator-button:hover {
+    background-color: gray;
+}
+
+.disabled-button{
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #B0E0E6;
+    color: black;
+    cursor: pointer;
+}
+
+.calculator-button-operator{
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00CCFF;
+    color: black;
+    cursor: pointer;
+}
+
+.calculator-button-delete{
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00CCFF;
+    color: black;
+    cursor: pointer;
+}
+
+.button.C {
+    background-color: #CC33FF;
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.button.CE {
+    background-color: #CC99FF;
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.button.C:hover {
+    background-color: gray;
+}
+.button.CE:hover {
+    background-color: gray;
+}
+
+.calculator-button-operator:hover{
+    background-color: grey;
+}
+.calculator-button-delete:hover{
+    background-color: grey;
+}
+.calculator-button.clear:hover {
+    background-color: gray;
+}
+.calculator-button.equals {
+    background-color: #00CCFF;
+}
+.calculator-button.equals:hover {
+    background-color: grey;
+}
