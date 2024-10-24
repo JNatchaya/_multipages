@@ -10,7 +10,7 @@
     margin: 10px;
     border-radius: 5px;
     background-position: center;
-    background-image: url('./f1.jpg');
+    background-image: url('/f1.jpg');
     width: 900px;
     height: 600px;
     position: relative;
@@ -36,32 +36,32 @@
   }
   
   .basketball {
-    background-image: url('./b1.png');
+    background-image: url('/b1.png');
     background-size: cover;
   }
   
   .football {
-    background-image: url('./b2.png');
+    background-image: url('/b2.png');
     background-size: cover;
   }
   
   .volleyball {
-    background-image: url('./voll.png');
+    background-image: url('/voll.png');
     background-size: cover;
   }
   
   .human {
-    background-image: url('./H3.jpg');
+    background-image: url('/H3.jpg');
     background-size: cover;
   }
   
   .cartoon {
-    background-image: url('./cartoon.jpg');
+    background-image: url('/cartoon.jpg');
     background-size: cover;
   }
   
   .logo {
-    background-image: url('./LOGO.png');
+    background-image: url('/LOGO.png');
     background-size: cover;
   }
   
